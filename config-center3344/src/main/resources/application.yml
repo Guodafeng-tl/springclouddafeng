@@ -14,8 +14,7 @@ spring:
             - springcloudconfig
       ####读取分支
       label: master
-#rabbitmq相关配置
-rabbitmq:
+  rabbitmq:
     host: localhost
     port: 5672
     username: guest
@@ -33,5 +32,4 @@ management:
     web:
       exposure:
         include: 'bus-refresh'
-
 

@@ -14,6 +14,7 @@
         <module>config-center3344</module>
         <module>cloudconsumer8000</module>
         <module>cloud-provide8888</module>
+        <module>config-client3355</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
