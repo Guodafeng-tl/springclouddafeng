@@ -15,6 +15,7 @@
         <module>cloudconsumer8000</module>
         <module>cloud-provide8888</module>
         <module>config-client3355</module>
+        <module>EasyCode-MybatisHelp-Test</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -96,6 +97,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.2.RELEASE</version>
                 <configuration>
                     <fork>true</fork>
                     <addResources>true</addResources>

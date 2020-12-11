@@ -1,6 +1,6 @@
 #cloud-consumer8000
-##controller包下面cloud.controller.SchedulerTask是springboot自带的定时任务
-##controller包下面cloud.controller.TestController是web测试的控制层
+##controller包下面cloud.web.controller.SchedulerTask是springboot自带的定时任务
+##controller包下面cloud.web.controller.TestController是web测试的控制层
 ##quartzJob下面是springboot整合quartz任务调度的简单使用
 ##cloud.CustomerInterceptor是在controller层之前进行拦截逻辑 (拦截类)
 ##cloud.CustomerInterceptorWebConfig是拦截器配置类(包括拦截的白名单和黑名单)
