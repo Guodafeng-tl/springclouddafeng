@@ -15,10 +15,7 @@ import java.io.*;
 import org.apache.commons.io.FileUtils;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * @author : dafeng.guo
@@ -214,4 +211,5 @@ public class ReadController {
         Object key1 = properties.get("key1");
         System.out.println("9999999999");
     }
+
 }

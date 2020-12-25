@@ -26,7 +26,7 @@ import java.util.HashMap;
 
 public class ReadDataFromNasMain {
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(ReadDataFromNasMain.class,args);
+        //SpringApplication.run(ReadDataFromNasMain.class,args);
 
         //Java -Durl="D:/test/test.txt" -jar name.jar
         /*String contents=System.getProperty("url");  //以jar启动获取参数传入的路径
