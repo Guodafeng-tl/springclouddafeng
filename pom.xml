@@ -20,6 +20,7 @@
         <module>ReadData-From-Nas</module>
         <module>RabbitMq-Provider-8889</module>
         <module>RabbitMq-Consumer-8890</module>
+        <module>SpringBoot-Kafka9000</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
