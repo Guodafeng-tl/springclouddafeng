@@ -16,6 +16,7 @@ import org.apache.commons.io.FileUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author : dafeng.guo
@@ -210,6 +211,33 @@ public class ReadController {
         properties.load(resourceAsStream);
         Object key1 = properties.get("key1");
         System.out.println("9999999999");
+    }
+
+    /**
+     * 测试 String.format
+     */
+    @GetMapping("/testStringFormat")
+    public void testStringFormt(){
+        String info="spdb.oss[%d].bucketList";
+        String format = String.format(info, 6);
+        System.out.println(format);
+    }
+
+    /**
+     * ConcurrentHashMap测试
+     */
+    @GetMapping("/testConcurrentHashMap")
+    public void testConcurrentHashMap(){
+        ConcurrentHashMap<String, String> cmap = new ConcurrentHashMap<>();
+        cmap.put("key1","value1");
+        cmap.put("key2","value2");
+        cmap.put("key2","value2");
+        cmap.put("key2","value3");
+        HashMap<String, String> hashMap = new HashMap<>();
+        hashMap.put("key6","value6");
+        hashMap.put("key6","value6");
+        hashMap.put("key6","value");
+        log.info("ConcurrentHashMap test-------------");
     }
 
 }
