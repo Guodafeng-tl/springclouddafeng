@@ -22,6 +22,7 @@
         <module>RabbitMq-Consumer-8890</module>
         <module>SpringBoot-Kafka9000</module>
         <module>S3-Support-ManyUser</module>
+        <module>SpringbootAsyncTask</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

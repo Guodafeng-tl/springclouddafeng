@@ -24,7 +24,7 @@ import s3.inter.OSSServiceImpl;
  * @author : dafeng.guo
  * @date : 15:34 2020/12/29
  **/
-//@Configuration  测试根据情况开放
+@Configuration  //测试根据情况开放
 @ConditionalOnProperty(name = Constants.OSS,havingValue = "false",matchIfMissing = true)
 public class OSSConfiguration {
 
