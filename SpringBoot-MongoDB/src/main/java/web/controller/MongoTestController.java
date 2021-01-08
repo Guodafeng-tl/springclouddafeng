@@ -21,7 +21,7 @@ public class MongoTestController {
     MongoService mongoService;
 
     /**
-     * 保存数据到mongodb
+     * 保存数据到mongodb 
      * @return
      */
     @GetMapping("/testSave")
