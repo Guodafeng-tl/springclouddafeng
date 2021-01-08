@@ -24,6 +24,7 @@
         <module>S3-Support-ManyUser</module>
         <module>SpringbootAsyncTask</module>
         <module>SpringBoot-MongoDB</module>
+        <module>SpringCloud-GateWay9526</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

@@ -1,15 +1,17 @@
-package cloud;
+package web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+/**
+ * @author : dafeng.guo
+ * @date : 13:29 2021/1/8
+ **/
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient
-public class CloudServer8888 {
+public class GateWayMain9526 {
     public static void main(String[] args) {
-        SpringApplication.run(CloudServer8888.class,args);
+        SpringApplication.run(GateWayMain9526.class,args);
     }
 }

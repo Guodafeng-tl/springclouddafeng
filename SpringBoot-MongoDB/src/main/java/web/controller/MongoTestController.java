@@ -36,8 +36,8 @@ public class MongoTestController {
 
     @GetMapping("/findInfo")
     public List<Student> findInfo(){
-        //List<Student> all = mongoService.findAll();
-        //all.forEach(info -> log.info(info.getName()));
+        List<Student> all = mongoService.findAll();
+        all.forEach(info -> log.info(info.getName()));
         Student student = new Student();
         student.setId("0de847a7-84e1-4a06-8c7e-b28202c6f071");
         List<Student> studentById = mongoService.findStudentById(student);

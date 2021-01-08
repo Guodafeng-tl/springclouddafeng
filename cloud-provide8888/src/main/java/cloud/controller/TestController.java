@@ -21,4 +21,14 @@ public class TestController {
     public String testfeign(){
         return providerFeignService.feignTest();
     }
+
+    @GetMapping(value = "/test/getInfo/666")
+    public String testInfo(){
+        return "8888这是来自getInfo的请求~~~~";
+    }
+
+    @GetMapping(value = "/test/getMessage/888")
+    public String getMessage(){
+       return "8888这是来自getMessage的请求~~~~";
+    }
 }
