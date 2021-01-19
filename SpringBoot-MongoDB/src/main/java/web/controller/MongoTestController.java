@@ -33,6 +33,13 @@ public class MongoTestController {
         mongoService.saveInfo(student);
         return "插入成功~~~";
     }
+    @GetMapping("/findAllInfo")
+    public List<Student> findAllInfo(){
+        List<Student> all = mongoService.findAll();
+        all.forEach(info -> log.info(info.getName()));
+        return all;
+    }
+
 
     @GetMapping("/findInfo")
     public List<Student> findInfo(){
