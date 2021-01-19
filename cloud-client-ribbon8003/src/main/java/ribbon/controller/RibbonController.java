@@ -20,7 +20,7 @@ public class RibbonController {
     ribbon.service.testFeignService testFeignService;
     @GetMapping("/byRibbon")
     public String getInfo(){
-        return this.restTemplate.getForObject("http://cloud-provide8888-service/testRibbon",String.class);
+        return restTemplate.getForObject("http://Ribbon-Server/testRibbon",String.class);
     }
 
     @GetMapping("/consumerTestFeign")
