@@ -2,10 +2,7 @@ package web.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import web.entity.Person;
 
 import java.util.ArrayList;
@@ -75,10 +72,17 @@ public class StreamTestController {
     /**
      *@RequestBody  测试
      */
+
     @PostMapping("/testRequestMap")
-    public void testRequestMap(@RequestBody Map<String,String> map){
+    public void testMap(@RequestBody Map<String,String> map){
         for (String s : map.keySet()){
             log.info(s);
         }
+    }
+
+    @PostMapping("/testRequestParam")
+    public void testRespBody(@RequestParam(value = "plugiName",required = false) String plugiName){
+       log.info(plugiName);
+       log.info("00000000000000");
     }
 }
