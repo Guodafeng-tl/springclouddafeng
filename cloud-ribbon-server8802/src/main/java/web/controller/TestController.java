@@ -3,7 +3,9 @@ package web.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import web.service.OpenFeignService;
 
+import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -15,6 +17,8 @@ import java.util.Date;
 @Slf4j
 public class TestController {
 
+    @Resource
+    private OpenFeignService openFeignService;
     @GetMapping("/testRibbon")
     public String testRibbon() {
         log.info("我是-RibbonServer8802");
@@ -22,5 +26,9 @@ public class TestController {
         String format = df.format(new Date());
 
         return "我是-RibbonServer8802"+"---"+format;
+    }
+    @GetMapping("/testOpenFign")
+    public String testOpenFign(){
+        return openFeignService.sayHello();
     }
 }

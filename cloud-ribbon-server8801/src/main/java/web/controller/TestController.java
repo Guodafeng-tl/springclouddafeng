@@ -3,9 +3,12 @@ package web.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import web.service.OpenFeignService;
 
+import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author : dafeng.guo
@@ -15,6 +18,8 @@ import java.util.Date;
 @Slf4j
 public class TestController {
 
+    @Resource
+    private OpenFeignService openFeignService;
     @GetMapping("/testRibbon")
     public String testRibbon() {
         log.info("我是-RibbonServer8801");
@@ -23,4 +28,20 @@ public class TestController {
 
         return "我是-RibbonServer8801"+"---"+format;
     }
+
+    @GetMapping("/testOpenFign")
+    public String testOpenFign(){
+        return openFeignService.sayHello();
+    }
+
+    @GetMapping("/openFeign/timeOut")
+    public String openFeignTimeOut(){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+        return "***hello,I am cloud-provide8801*******";
+    }
+
 }
