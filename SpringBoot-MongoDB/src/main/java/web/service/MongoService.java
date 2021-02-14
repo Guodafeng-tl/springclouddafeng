@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 import web.entity.Student;
+import web.entity.Test;
 
 import java.util.List;
 
@@ -28,6 +29,10 @@ public class MongoService {
      */
     public void saveInfo(Student student){
         mongoTemplate.save(student,"test");
+    }
+
+    public void saveTest(Test test){
+        mongoTemplate.save(test,"testNew");
     }
 
     public List<Student> findAll(){

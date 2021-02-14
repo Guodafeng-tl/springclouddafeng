@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import web.entity.Student;
+import web.entity.Test;
 import web.service.MongoService;
 
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * @author : dafeng.guo
@@ -67,5 +67,36 @@ public class MongoTestController {
         student.setId("9aced04a-fa6f-4fe6-b5ec-70d4790e063c");
         mongoService.removeStudent(student);
         return "删除成功~~~";
+    }
+
+    @GetMapping("/testSavePart")
+    public String testSavePart(){
+        List<String> strings = new ArrayList<>();
+        strings.add("111");
+        strings.add("222");
+        Map<String, List<String>> hashMap = new HashMap<>();
+        hashMap.put("aaa",strings);
+        Map<String, List<String>> hashMap2 = new HashMap<>();
+        hashMap2.put("bbb",strings);
+        Test test = new Test();
+        List<Map<String,List<String>>> list = new ArrayList<>();
+        list.add(hashMap);
+        list.add(hashMap2);
+        test.setPart(list);
+        mongoService.saveTest(test);
+        return "插入成功a~~~";
+    }
+
+    @GetMapping("/testMap")
+    public void testMap(){
+        
+        HashMap<String, Boolean> result = new HashMap<>();
+        result.put("status",false);
+        result.put("status",true);
+        log.info("0000");
+
+        ArrayList<Student> students = new ArrayList<>();
+        int size = students.size();
+        log.info(String.valueOf(students.size()));
     }
 }
