@@ -27,6 +27,10 @@
         <module>SpringCloud-GateWay9526</module>
         <module>cloud-ribbon-server8801</module>
         <module>cloud-ribbon-server8802</module>
+        <module>cloud-openFeign8787</module>
+        <module>cloud-hystrix-provider8888</module>
+        <module>cloud-feign-hystrix-consumer8887</module>
+        <module>cloud-consumer-hystrix-dashboard9001</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
