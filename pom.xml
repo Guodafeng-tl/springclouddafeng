@@ -32,6 +32,8 @@
         <module>cloud-feign-hystrix-consumer8887</module>
         <module>cloud-consumer-hystrix-dashboard9001</module>
         <module>Springboot-Redis</module>
+        <module>Springboot-quartz</module>
+        <module>Springboot-FilterAndInterceptor</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
