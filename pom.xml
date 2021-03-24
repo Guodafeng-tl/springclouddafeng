@@ -34,6 +34,7 @@
         <module>Springboot-Redis</module>
         <module>Springboot-quartz</module>
         <module>Springboot-FilterAndInterceptor</module>
+        <module>Springboot-Shiro</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

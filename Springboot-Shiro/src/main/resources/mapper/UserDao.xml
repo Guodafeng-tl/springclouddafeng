@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.dao.UserDao">
+
+    <resultMap id="BaseResultMap" type="web.entity.User">
+        <!--@Table user-->
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="pwd" column="pwd" jdbcType="VARCHAR"/>
+        <result property="role" column="role" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+          id, name, pwd, role
+        from shirotest.user
+        where id = #{id}
+    </select>
+
+    <!--通过用户名查询单个-->
+    <select id="queryByUserName" resultMap="BaseResultMap">
+        select
+          id, name, pwd, role
+        from shirotest.user
+        where name = #{name}
+    </select>
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        select
+          id, name, pwd, role
+        from shirotest.user
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BaseResultMap">
+        select
+          id, name, pwd, role
+        from shirotest.user
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="pwd != null and pwd != ''">
+                and pwd = #{pwd}
+            </if>
+            <if test="role != null and role != ''">
+                and role = #{role}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into shirotest.user(name, pwd, role)
+        values (#{name}, #{pwd}, #{role})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update shirotest.user
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="pwd != null and pwd != ''">
+                pwd = #{pwd},
+            </if>
+            <if test="role != null and role != ''">
+                role = #{role},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from shirotest.user where id = #{id}
+    </delete>
+
+</mapper>

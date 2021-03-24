@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "many",
+      "type": "s3.config.MultiOSSProperties",
+      "sourceType": "s3.config.MultiOSSProperties"
+    },
+    {
+      "name": "many.oss",
+      "type": "s3.config.OSSProperties",
+      "sourceType": "s3.config.OSSProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "many.oss",
+      "type": "java.util.List<s3.config.OSSProperties>",
+      "description": "多用户",
+      "sourceType": "s3.config.MultiOSSProperties"
+    },
+    {
+      "name": "many.oss.access-key",
+      "type": "java.lang.String",
+      "description": "对象存储key值，类似用户名",
+      "sourceType": "s3.config.OSSProperties"
+    },
+    {
+      "name": "many.oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "对象存储桶",
+      "sourceType": "s3.config.OSSProperties"
+    },
+    {
+      "name": "many.oss.end-point",
+      "type": "java.lang.String",
+      "description": "对象存储访问地址",
+      "sourceType": "s3.config.OSSProperties"
+    },
+    {
+      "name": "many.oss.max-connections",
+      "type": "java.lang.String",
+      "description": "对象存储最大连接数",
+      "sourceType": "s3.config.OSSProperties"
+    },
+    {
+      "name": "many.oss.secret-key",
+      "type": "java.lang.String",
+      "description": "对象存储密钥",
+      "sourceType": "s3.config.OSSProperties"
+    }
+  ],
+  "hints": []
+}

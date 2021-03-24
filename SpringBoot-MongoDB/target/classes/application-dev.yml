@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:123456@localhost:27017/dafeng
+
+
+
+#mongodb://root:123456@localhost:27017/dafeng               一切权限
+#mongodb://read-dafeng:123456@localhost:27017/dafeng        只能读取
+#mongodb://localhost:27017/runoob

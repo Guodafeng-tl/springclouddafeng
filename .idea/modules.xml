@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/EasyCode-MybatisHelp-Test.iml" filepath="$PROJECT_DIR$/EasyCode-MybatisHelp-Test/EasyCode-MybatisHelp-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMq-Consumer-8890/RabbitMq-Consumer-8890.iml" filepath="$PROJECT_DIR$/RabbitMq-Consumer-8890/RabbitMq-Consumer-8890.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMq-Provider-8889/RabbitMq-Provider-8889.iml" filepath="$PROJECT_DIR$/RabbitMq-Provider-8889/RabbitMq-Provider-8889.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadData-From-Nas/ReadData-From-Nas.iml" filepath="$PROJECT_DIR$/ReadData-From-Nas/ReadData-From-Nas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S3-Support-ManyUser/S3-Support-ManyUser.iml" filepath="$PROJECT_DIR$/S3-Support-ManyUser/S3-Support-ManyUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-Kafka9000/SpringBoot-Kafka9000.iml" filepath="$PROJECT_DIR$/SpringBoot-Kafka9000/SpringBoot-Kafka9000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-MongoDB/SpringBoot-MongoDB.iml" filepath="$PROJECT_DIR$/SpringBoot-MongoDB/SpringBoot-MongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-GateWay9526/SpringCloud-GateWay9526.iml" filepath="$PROJECT_DIR$/SpringCloud-GateWay9526/SpringCloud-GateWay9526.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" filepath="$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" filepath="$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-Shiro/Springboot-Shiro.iml" filepath="$PROJECT_DIR$/Springboot-Shiro/Springboot-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-quartz/Springboot-quartz.iml" filepath="$PROJECT_DIR$/Springboot-quartz/Springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringbootAsyncTask/SpringbootAsyncTask.iml" filepath="$PROJECT_DIR$/SpringbootAsyncTask/SpringbootAsyncTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-client-ribbon8003/cloud-client-ribbon8003.iml" filepath="$PROJECT_DIR$/cloud-client-ribbon8003/cloud-client-ribbon8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudconsumer8000/cloud-consumer8000.iml" filepath="$PROJECT_DIR$/cloudconsumer8000/cloud-consumer8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-feign-hystrix-consumer8887/cloud-feign-hystrix-consumer8887.iml" filepath="$PROJECT_DIR$/cloud-feign-hystrix-consumer8887/cloud-feign-hystrix-consumer8887.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-provider8888/cloud-hystrix-provider8888.iml" filepath="$PROJECT_DIR$/cloud-hystrix-provider8888/cloud-hystrix-provider8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-openFeign8787/cloud-openFeign8787.iml" filepath="$PROJECT_DIR$/cloud-openFeign8787/cloud-openFeign8787.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provide8888/cloud-provide8888.iml" filepath="$PROJECT_DIR$/cloud-provide8888/cloud-provide8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-ribbon-server8801/cloud-ribbon-server8801.iml" filepath="$PROJECT_DIR$/cloud-ribbon-server8801/cloud-ribbon-server8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-ribbon-server8802/cloud-ribbon-server8802.iml" filepath="$PROJECT_DIR$/cloud-ribbon-server8802/cloud-ribbon-server8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-center3344/config-center3344.iml" filepath="$PROJECT_DIR$/config-center3344/config-center3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client3355/config-client3355.iml" filepath="$PROJECT_DIR$/config-client3355/config-client3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurakeServer7001/eurakeServer7001.iml" filepath="$PROJECT_DIR$/eurakeServer7001/eurakeServer7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springclouddafeng.iml" filepath="$PROJECT_DIR$/.idea/springclouddafeng.iml" />
+    </modules>
+  </component>
+</project>

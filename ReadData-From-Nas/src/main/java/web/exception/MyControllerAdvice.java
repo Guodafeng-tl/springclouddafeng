@@ -3,6 +3,7 @@ package web.exception;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.ResponseBody;
 import web.utils.ResultMsg;
 
@@ -31,6 +32,7 @@ public class MyControllerAdvice extends RuntimeException{
     @ResponseBody
     @ExceptionHandler(value = Exception.class)
     public ResultMsg exceptionHandler(Exception ex){
+        log.error("this is  MyControllerAdvice exceptionHandler*************************");
         ResultMsg resultMsg = ResultMsg.retuenFail().addMapInfo(SYSTEM_EXCEPTION, ex);
         return resultMsg;
     }
@@ -38,6 +40,7 @@ public class MyControllerAdvice extends RuntimeException{
     @ResponseBody
     @ExceptionHandler(RuntimeException.class)
     public ResultMsg handleRuntimeException(RuntimeException e) {
+        log.error("this is  MyControllerAdvice handleRuntimeException*************************");
         ResultMsg resultMsg = ResultMsg.retuenFail().addMapInfo(RUN_TIME_EXCEPTION, e);
         return resultMsg;
     }
@@ -45,8 +48,20 @@ public class MyControllerAdvice extends RuntimeException{
     @ResponseBody
     @ExceptionHandler(ArithmeticException.class)
     public ResultMsg handleArithmeticException(RuntimeException e) {
+        log.error("this is  MyControllerAdvice handleArithmeticException*************************");
         ResultMsg resultMsg = ResultMsg.retuenFail().addMapInfo(ARITHMETIC_EXCEPTION, e);
         return resultMsg;
     }
 
+    /**
+     * 数据绑定
+     * @return
+     */
+    @ModelAttribute(name = "md")
+    public Map<String,Object> mydata() {
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("name", "dafeng");
+        map.put("gender", "男");
+        return map;
+    }
 }

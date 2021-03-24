@@ -1,0 +1,6 @@
+web\service\TestService.class
+web\controller\ReadController.class
+web\service\impl\TestServiceImpl.class
+web\utils\ResultMsg.class
+web\ReadDataFromNasMain.class
+web\exception\MyControllerAdvice.class
