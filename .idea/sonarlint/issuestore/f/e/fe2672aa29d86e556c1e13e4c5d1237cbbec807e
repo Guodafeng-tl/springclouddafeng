@@ -1,0 +1,47 @@
+
+M
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ğé’¾…/
+X	java:S125B"<This block of commented-out lines of code should be removed.(‡ÛÕ8ø€é¾…/
+d	java:S899Ñ"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8Ğé’¾…/
+X	java:S125¦"<This block of commented-out lines of code should be removed.(ôº±8Ğé’¾…/
+p
+java:S2095ç"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ïƒò–ûÿÿÿÿ8Ğé’¾…/
+c	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(í¤³ì8Ğé’¾…/
+O
+java:S1153†"1Directly append the argument of String.valueOf().( ÓùÌ8Ğé’¾…/
+[
+java:S4143ƒ"DVerify this is the key that was intended; it was already set before.(†Õ–­
+_
+java:S3518C"CMake sure this expression can't be zero before doing this division.(›º<8ø€é¾…/
+h
+java:S2095¯"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(¸™á…8Ğé’¾…/
+c	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(›Ş·¨8Ğé’¾…/
+]	java:S1253"<This block of commented-out lines of code should be removed.(İ¼öøüÿÿÿÿ8â„×½…/
+V	java:S106ô"9Replace this use of System.out or System.err by a logger.(¤™ï×8Ğé’¾…/
+N
+java:S11536"1Directly append the argument of String.valueOf().(ª¢ºı8¶É×½…/
+i
+java:S1192š"FDefine a constant instead of duplicating this literal "total" 4 times.(éâ…¥ıÿÿÿÿ8Ğé’¾…/
+`
+java:S4143ÿ"DVerify this is the key that was intended; it was already set before.(ƒø£ûşÿÿÿÿ
+[
+java:S4143Œ"DVerify this is the key that was intended; it was already set before.(ÂËú…
+e
+java:S35184"CMake sure this expression can't be zero before doing this division.(æ±Ù©şÿÿÿÿ8â„×½…/
+u
+java:S1488C"YImmediately return this expression instead of assigning it to the temporary variable "i".(›º<8ø€é¾…/
+g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Éæ„÷øÿÿÿÿ8â„×½…/
+]	java:S125V"<This block of commented-out lines of code should be removed.(ÿÛ½úùÿÿÿÿ8Ğé’¾…/
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ğ°·±ÿÿÿÿÿ8ø€é¾…/
+V
+java:S1854é"8Remove this useless assignment to local variable "key1".(Ó¬£æ8Ğé’¾…/
+^	java:S125À"<This block of commented-out lines of code should be removed.(˜óÿØùÿÿÿÿ8Ğé’¾…/
+G
+java:S1481é")Remove this unused "key1" local variable.(Ó¬£æ8Ğé’¾…/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(½œÒîüÿÿÿÿ8Ğé’¾…/
+j
+java:S1192ş"GDefine a constant instead of duplicating this literal "value2" 3 times.(ƒø£ûşÿÿÿÿ8Ğé’¾…/
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¹¸úŒ8Ğé’¾…/
+p	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‡ü™úÿÿÿÿ8Ğé’¾…/
+W
+java:S2864±"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8Ğé’¾…/

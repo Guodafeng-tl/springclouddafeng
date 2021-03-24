@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq-Consumer-8890/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq-Consumer-8890/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq-Provider-8889/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq-Provider-8889/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReadData-From-Nas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReadData-From-Nas/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S3-Support-ManyUser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S3-Support-ManyUser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-Kafka9000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-Kafka9000/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-MongoDB/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-MongoDB/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-GateWay9526/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-GateWay9526/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Shiro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Shiro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringbootAsyncTask/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringbootAsyncTask/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-client-ribbon8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-client-ribbon8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-hystrix-consumer8887/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-hystrix-consumer8887/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-provider8888/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-provider8888/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openFeign8787/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-openFeign8787/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provide8888/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provide8888/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-ribbon-server8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-ribbon-server8801/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-ribbon-server8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-ribbon-server8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconsumer8000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconsumer8000/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurakeServer7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurakeServer7001/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

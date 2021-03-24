@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.dao.testB.TeacherDao">
+
+    <resultMap id="BaseResultMap" type="web.entity.Teacher">
+        <!--@Table teacher-->
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+          id, age, name
+        from testb.teacher
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        select
+          id, age, name
+        from testb.teacher
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BaseResultMap">
+        select
+          id, age, name
+        from testb.teacher
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into testb.teacher(age, name)
+        values (#{age}, #{name})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update testb.teacher
+        <set>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from testb.teacher where id = #{id}
+    </delete>
+
+</mapper>
