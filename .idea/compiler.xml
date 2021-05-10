@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Springboot-Shiro" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="RabbitMq-Consumer-8890" />
         <module name="config-client3355" />
         <module name="SpringBoot-MongoDB" />
+        <module name="SpringbootAsyncTask" />
         <module name="cloud-api-commons" />
         <module name="RabbitMq-Provider-8889" />
         <module name="cloud-openFeign8787" />
@@ -17,19 +17,21 @@
         <module name="cloud-client-ribbon8003" />
         <module name="eurakeServer7001" />
         <module name="cloud-consumer8000" />
+        <module name="Springboot-FilterAndInterceptor" />
         <module name="cloud-provide8888" />
         <module name="cloud-ribbon-server8802" />
         <module name="cloud-ribbon-server8801" />
+        <module name="DesignPatterns23" />
         <module name="S3-Support-ManyUser" />
         <module name="Springboot-Redis" />
-        <module name="SpringbootAsyncTask" />
+        <module name="Springboot-Shiro" />
         <module name="ReadData-From-Nas" />
         <module name="SpringBoot-Kafka9000" />
-        <module name="Springboot-FilterAndInterceptor" />
+        <module name="EasyCode-MybatisHelp-Test" />
         <module name="SpringCloud-GateWay9526" />
         <module name="Springboot-quartz" />
-        <module name="EasyCode-MybatisHelp-Test" />
-        <module name="RabbitMq-Consumer-8890" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="Springboot-Thread" />
         <module name="cloud-feign-hystrix-consumer8887" />
         <module name="config-center3344" />
       </profile>
@@ -47,6 +49,7 @@
       <module name="cloud-ribbon-server8802" target="1.8" />
       <module name="config-center3344" target="1.8" />
       <module name="config-client3355" target="1.8" />
+      <module name="DesignPatterns23" target="1.8" />
       <module name="EasyCode-MybatisHelp-Test" target="1.8" />
       <module name="eurakeServer7001" target="1.8" />
       <module name="RabbitMq-Consumer-8890" target="1.8" />
@@ -59,6 +62,7 @@
       <module name="Springboot-quartz" target="1.8" />
       <module name="Springboot-Redis" target="1.8" />
       <module name="Springboot-Shiro" target="1.8" />
+      <module name="Springboot-Thread" target="1.8" />
       <module name="SpringbootAsyncTask" target="1.8" />
       <module name="SpringCloud-GateWay9526" target="1.8" />
       <module name="springclouddafeng" target="1.8" />

@@ -1,0 +1,11 @@
+
+b	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(ÒÕ²°8ä¿È†/
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(…Ôü¾8…§ÛÅ†/
+]	java:S125,"<This block of commented-out lines of code should be removed.(•ª”™ıÿÿÿÿ8’ÈÜÁ†/
+U	java:S106="9Replace this use of System.out or System.err by a logger.(µøØÕ8…§ÛÅ†/
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ìš†ôüÿÿÿÿ8›È†/
+D
+java:S14819"'Remove this unused "d2" local variable.(Ğ”Ã8ÿƒÈ†/
+S
+java:S18549"6Remove this useless assignment to local variable "d2".(Ğ”Ã8ÿƒÈ†/
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ªì½­úÿÿÿÿ8…§ÛÅ†/

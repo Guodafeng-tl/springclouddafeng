@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DesignPatterns23/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DesignPatterns23/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RabbitMq-Consumer-8890/src/main/java" charset="UTF-8" />
@@ -17,10 +19,17 @@
     <file url="file://$PROJECT_DIR$/SpringBoot-MongoDB/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-GateWay9526/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-GateWay9526/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-FilterAndInterceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-FilterAndInterceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Springboot-Shiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Springboot-Shiro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Thread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-Thread/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Springboot-quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringbootAsyncTask/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringbootAsyncTask/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-client-ribbon8003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-client-ribbon8003/src/main/resources" charset="UTF-8" />

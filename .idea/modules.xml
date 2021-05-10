@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns23/DesignPatterns23.iml" filepath="$PROJECT_DIR$/DesignPatterns23/DesignPatterns23.iml" />
       <module fileurl="file://$PROJECT_DIR$/EasyCode-MybatisHelp-Test/EasyCode-MybatisHelp-Test.iml" filepath="$PROJECT_DIR$/EasyCode-MybatisHelp-Test/EasyCode-MybatisHelp-Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/RabbitMq-Consumer-8890/RabbitMq-Consumer-8890.iml" filepath="$PROJECT_DIR$/RabbitMq-Consumer-8890/RabbitMq-Consumer-8890.iml" />
       <module fileurl="file://$PROJECT_DIR$/RabbitMq-Provider-8889/RabbitMq-Provider-8889.iml" filepath="$PROJECT_DIR$/RabbitMq-Provider-8889/RabbitMq-Provider-8889.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" filepath="$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" filepath="$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot-Shiro/Springboot-Shiro.iml" filepath="$PROJECT_DIR$/Springboot-Shiro/Springboot-Shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-Thread/Springboot-Thread.iml" filepath="$PROJECT_DIR$/Springboot-Thread/Springboot-Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot-quartz/Springboot-quartz.iml" filepath="$PROJECT_DIR$/Springboot-quartz/Springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringbootAsyncTask/SpringbootAsyncTask.iml" filepath="$PROJECT_DIR$/SpringbootAsyncTask/SpringbootAsyncTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />

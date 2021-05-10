@@ -35,6 +35,8 @@
         <module>Springboot-quartz</module>
         <module>Springboot-FilterAndInterceptor</module>
         <module>Springboot-Shiro</module>
+        <module>Springboot-Thread</module>
+        <module>DesignPatterns23</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
