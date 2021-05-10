@@ -47,4 +47,25 @@ public class RedisController {
         return "testRestTemplateGetStr SUCCESS";
     }
 
+    /**
+     * 右边放入list集合
+     * @return
+     */
+    @GetMapping("/testList")
+    public String testList(){
+        redisTemplate.opsForList().rightPush("list","a");
+        redisTemplate.opsForList().rightPush("list","b");
+        redisTemplate.opsForList().rightPush("list","c");
+        return "testList SUCCESS";
+    }
+
+    /**
+     * 右边放入list集合
+     * @return
+     */
+    @GetMapping("/getList")
+    public String getList(){
+        redisTemplate.opsForList().leftPop("list");
+        return "getList SUCCESS";
+    }
 }
