@@ -1,0 +1,10 @@
+
+W
+java:S2209"5Change this instance-reference to a static reference.(·¿šğşÿÿÿÿ8²Ñ¯ì/
+I
+java:S2440	",Remove this instantiation of "ShapeFactory".(Ç£Ú8²Ñ¯ì/
+W
+java:S2209"5Change this instance-reference to a static reference.(·è™”ûÿÿÿÿ8²Ñ¯ì/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø£¶ôıÿÿÿÿ
+W
+java:S2209"5Change this instance-reference to a static reference.(¶Õ¾Šûÿÿÿÿ8²Ñ¯ì/

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/S3-Support-ManyUser/S3-Support-ManyUser.iml" filepath="$PROJECT_DIR$/S3-Support-ManyUser/S3-Support-ManyUser.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Kafka9000/SpringBoot-Kafka9000.iml" filepath="$PROJECT_DIR$/SpringBoot-Kafka9000/SpringBoot-Kafka9000.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-MongoDB/SpringBoot-MongoDB.iml" filepath="$PROJECT_DIR$/SpringBoot-MongoDB/SpringBoot-MongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" filepath="$PROJECT_DIR$/SpringBoot-MyBatis/SpringBoot-MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-GateWay9526/SpringCloud-GateWay9526.iml" filepath="$PROJECT_DIR$/SpringCloud-GateWay9526/SpringCloud-GateWay9526.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" filepath="$PROJECT_DIR$/Springboot-FilterAndInterceptor/Springboot-FilterAndInterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" filepath="$PROJECT_DIR$/Springboot-Redis/Springboot-Redis.iml" />

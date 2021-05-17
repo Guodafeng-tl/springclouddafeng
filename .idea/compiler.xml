@@ -6,33 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RabbitMq-Consumer-8890" />
-        <module name="config-client3355" />
+        <module name="EasyCode-MybatisHelp-Test" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="Springboot-Thread" />
+        <module name="cloud-hystrix-provider8888" />
         <module name="SpringBoot-MongoDB" />
-        <module name="SpringbootAsyncTask" />
         <module name="cloud-api-commons" />
         <module name="RabbitMq-Provider-8889" />
         <module name="cloud-openFeign8787" />
-        <module name="cloud-hystrix-provider8888" />
         <module name="cloud-client-ribbon8003" />
         <module name="eurakeServer7001" />
         <module name="cloud-consumer8000" />
-        <module name="Springboot-FilterAndInterceptor" />
+        <module name="cloud-feign-hystrix-consumer8887" />
+        <module name="SpringCloud-GateWay9526" />
         <module name="cloud-provide8888" />
         <module name="cloud-ribbon-server8802" />
         <module name="cloud-ribbon-server8801" />
         <module name="DesignPatterns23" />
-        <module name="S3-Support-ManyUser" />
         <module name="Springboot-Redis" />
-        <module name="Springboot-Shiro" />
+        <module name="config-client3355" />
+        <module name="SpringBoot-MyBatis" />
         <module name="ReadData-From-Nas" />
         <module name="SpringBoot-Kafka9000" />
-        <module name="EasyCode-MybatisHelp-Test" />
-        <module name="SpringCloud-GateWay9526" />
+        <module name="Springboot-FilterAndInterceptor" />
+        <module name="S3-Support-ManyUser" />
         <module name="Springboot-quartz" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
-        <module name="Springboot-Thread" />
-        <module name="cloud-feign-hystrix-consumer8887" />
+        <module name="Springboot-Shiro" />
+        <module name="RabbitMq-Consumer-8890" />
+        <module name="SpringbootAsyncTask" />
         <module name="config-center3344" />
       </profile>
     </annotationProcessing>
@@ -59,6 +60,7 @@
       <module name="Springboot-FilterAndInterceptor" target="1.8" />
       <module name="SpringBoot-Kafka9000" target="1.8" />
       <module name="SpringBoot-MongoDB" target="1.8" />
+      <module name="SpringBoot-MyBatis" target="1.8" />
       <module name="Springboot-quartz" target="1.8" />
       <module name="Springboot-Redis" target="1.8" />
       <module name="Springboot-Shiro" target="1.8" />

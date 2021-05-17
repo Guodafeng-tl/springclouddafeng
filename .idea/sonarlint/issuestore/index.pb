@@ -125,3 +125,11 @@ n
 >SpringBoot-MongoDB/src/main/java/web/service/MongoService.java,6\1\617f4a366309c0602082ec48fd3c23ae6d80b4b0
 x
 HSpringBoot-MongoDB/src/main/java/web/controller/MongoTestController.java,0\5\05eedf4eb124c791ea0a65dbe4d0b7173e269461
+U
+%Springboot-Redis/Springboot-Redis.iml,a\4\a4cf185c0b3b43d2dda0394c4e8b046d0a0c694d
+U
+%DesignPatterns23/DesignPatterns23.iml,d\1\d18c6fda82538e3eef7040e3cb3907f46f53a745
+W
+'Springboot-Thread/Springboot-Thread.iml,4\4\44e3008d270ccc76688b047815bf99b0d7678942
+m
+=EasyCode-MybatisHelp-Test/src/main/java/web/EasyCodeMain.java,6\8\6860eabf4948cf426131c8ec1db1ae56775e590f
