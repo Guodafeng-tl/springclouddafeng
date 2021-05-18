@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @author : dafeng.guo
  * @date : 9:41 2021/5/17
  **/
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 public class MyBatisMain {
     public static void main(String[] args) {
         SpringApplication.run(MyBatisMain.class, args);
