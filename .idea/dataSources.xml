@@ -25,5 +25,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/shirotest?serverTimezone=GMT-8</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="mybatis@localhost" uuid="83797e59-587e-458e-b60a-5d39b94fb8e5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mybatis</jdbc-url>
+    </data-source>
   </component>
 </project>

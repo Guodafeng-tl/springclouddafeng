@@ -1,47 +1,47 @@
 
-N
-java:S11536"1Directly append the argument of String.valueOf().(ª¢ºý8¶É×½…/
-g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ð°·±ÿÿÿÿÿ8ø€é¾…/
-[	java:S106ê"9Replace this use of System.out or System.err by a logger.(½œÒîüÿÿÿÿ8Ðé’¾…/
-V	java:S106ô"9Replace this use of System.out or System.err by a logger.(¤™ï×8Ðé’¾…/
-e
-java:S35184"CMake sure this expression can't be zero before doing this division.(æ±Ù©þÿÿÿÿ8â„×½…/
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¹¸úŒ8Ðé’¾…/
 [
-java:S4143Œ"DVerify this is the key that was intended; it was already set before.(ÂËú…
-X	java:S125B"<This block of commented-out lines of code should be removed.(‡ÛÕ8ø€é¾…/
-O
-java:S1153†"1Directly append the argument of String.valueOf().( ÓùÌ8Ðé’¾…/
-p	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‡ü™úÿÿÿÿ8Ðé’¾…/
-W
-java:S2864±"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8Ðé’¾…/
-i
-java:S1192š"FDefine a constant instead of duplicating this literal "total" 4 times.(éâ…¥ýÿÿÿÿ8Ðé’¾…/
-j
-java:S1192þ"GDefine a constant instead of duplicating this literal "value2" 3 times.(ƒø£ûþÿÿÿÿ8Ðé’¾…/
-c	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(›Þ·¨8Ðé’¾…/
-V
-java:S1854é"8Remove this useless assignment to local variable "key1".(Ó¬£æ8Ðé’¾…/
-`
-java:S4143ÿ"DVerify this is the key that was intended; it was already set before.(ƒø£ûþÿÿÿÿ
-c	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(í¤³ì8Ðé’¾…/
-]	java:S1253"<This block of commented-out lines of code should be removed.(Ý¼öøüÿÿÿÿ8â„×½…/
-]	java:S125V"<This block of commented-out lines of code should be removed.(ÿÛ½úùÿÿÿÿ8Ðé’¾…/
+java:S4143ƒ"DVerify this is the key that was intended; it was already set before.(†Õ–­
+h
+java:S2095¯"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(¸™á…8Ðé’¾…/
+_
+java:S3518C"CMake sure this expression can't be zero before doing this division.(›º<8ø€é¾…/
 G
 java:S1481é")Remove this unused "key1" local variable.(Ó¬£æ8Ðé’¾…/
 g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Éæ„÷øÿÿÿÿ8â„×½…/
-X	java:S125¦"<This block of commented-out lines of code should be removed.(ôº±8Ðé’¾…/
-p
-java:S2095ç"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ïƒò–ûÿÿÿÿ8Ðé’¾…/
-[
-java:S4143ƒ"DVerify this is the key that was intended; it was already set before.(†Õ–­
-^	java:S125À"<This block of commented-out lines of code should be removed.(˜óÿØùÿÿÿÿ8Ðé’¾…/
-_
-java:S3518C"CMake sure this expression can't be zero before doing this division.(›º<8ø€é¾…/
-M
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ðé’¾…/
-d	java:S899Ñ"BDo something with the "boolean" value returned by "createNewFile".(Ð’Íùÿÿÿÿ8Ðé’¾…/
-h
-java:S2095¯"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(¸™á…8Ðé’¾…/
+p	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‡ü™úÿÿÿÿ8Ðé’¾…/
+e
+java:S35184"CMake sure this expression can't be zero before doing this division.(æ±Ù©þÿÿÿÿ8â„×½…/
 u
 java:S1488C"YImmediately return this expression instead of assigning it to the temporary variable "i".(›º<8ø€é¾…/
+c	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(í¤³ì8Ðé’¾…/
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ð°·±ÿÿÿÿÿ8ø€é¾…/
+V	java:S106ô"9Replace this use of System.out or System.err by a logger.(¤™ï×8Ðé’¾…/
+`
+java:S4143ÿ"DVerify this is the key that was intended; it was already set before.(ƒø£ûþÿÿÿÿ
+d	java:S899Ñ"BDo something with the "boolean" value returned by "createNewFile".(Ð’Íùÿÿÿÿ8Ðé’¾…/
+^	java:S125À"<This block of commented-out lines of code should be removed.(˜óÿØùÿÿÿÿ8Ðé’¾…/
+O
+java:S1153†"1Directly append the argument of String.valueOf().( ÓùÌ8Ðé’¾…/
+W
+java:S2864±"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8Ðé’¾…/
+p
+java:S2095ç"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ïƒò–ûÿÿÿÿ8Ðé’¾…/
+]	java:S1253"<This block of commented-out lines of code should be removed.(Ý¼öøüÿÿÿÿ8â„×½…/
+]	java:S125V"<This block of commented-out lines of code should be removed.(ÿÛ½úùÿÿÿÿ8Ðé’¾…/
+X	java:S125¦"<This block of commented-out lines of code should be removed.(ôº±8Ðé’¾…/
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¹¸úŒ8Ðé’¾…/
+N
+java:S11536"1Directly append the argument of String.valueOf().(ª¢ºý8¶É×½…/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(½œÒîüÿÿÿÿ8Ðé’¾…/
+c	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(›Þ·¨8Ðé’¾…/
+X	java:S125B"<This block of commented-out lines of code should be removed.(‡ÛÕ8ø€é¾…/
+[
+java:S4143Œ"DVerify this is the key that was intended; it was already set before.(ÂËú…
+i
+java:S1192š"FDefine a constant instead of duplicating this literal "total" 4 times.(éâ…¥ýÿÿÿÿ8Ðé’¾…/
+V
+java:S1854é"8Remove this useless assignment to local variable "key1".(Ó¬£æ8Ðé’¾…/
+M
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ðé’¾…/
+j
+java:S1192þ"GDefine a constant instead of duplicating this literal "value2" 3 times.(ƒø£ûþÿÿÿÿ8Ðé’¾…/
