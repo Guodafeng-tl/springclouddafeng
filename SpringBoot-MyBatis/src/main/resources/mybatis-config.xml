@@ -3,14 +3,24 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <environments default="development">
-        <environment id="development">
+    <!--读取外部配置文件 当properties中property同时配置时 以外部配置文件为主-->
+    <properties resource="db.properties">
+        <!--对比配置外部文件 db.properties里面配置 看哪个为主-->
+        <property name="username" value="root"/>
+        <property name="password" value="dafeng"/>
+    </properties>
+
+    <typeAliases>
+        <typeAlias type="web.entity.User" alias="user"></typeAlias>
+    </typeAliases>
+    <environments default="dafeng">
+        <environment id="dafeng">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC"/>
-                <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
             </dataSource>
         </environment>
     </environments>

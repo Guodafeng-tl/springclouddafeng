@@ -20,7 +20,7 @@ class UserDaoTest {
         SqlSession sqlSession = MyBatisSqlSessionFactory.getSqlSession();
         UserDao mapper = sqlSession.getMapper(UserDao.class);
         List<User> userList = mapper.getUserList();
-        for (User user:userList){
+        for (User user : userList) {
             System.out.println(user);
         }
     }
