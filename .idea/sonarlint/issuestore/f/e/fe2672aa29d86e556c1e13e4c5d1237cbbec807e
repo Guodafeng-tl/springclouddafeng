@@ -1,47 +1,52 @@
 
-[
-java:S4143É"DVerify this is the key that was intended; it was already set before.(Ü’ñ≠
-h
-java:S2095Ø"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(∏ô·Ö8–ÈíæÖ/
-_
-java:S3518C"CMake sure this expression can't be zero before doing this division.(õ∫ù<8¯ÄÈæÖ/
-G
-java:S1481È")Remove this unused "key1" local variable.(”¨£Ê8–ÈíæÖ/
-g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(…ÊÑ˜¯ˇˇˇˇ8‚Ñ◊ΩÖ/
-p	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( á¸ô˙ˇˇˇˇ8–ÈíæÖ/
-e
-java:S35184"CMake sure this expression can't be zero before doing this division.(Ê±Ÿ©˛ˇˇˇˇ8‚Ñ◊ΩÖ/
-u
-java:S1488C"YImmediately return this expression instead of assigning it to the temporary variable "i".(õ∫ù<8¯ÄÈæÖ/
-c	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ì§≥Ï8–ÈíæÖ/
-g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(–∞∑±ˇˇˇˇˇ8¯ÄÈæÖ/
-V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(§ôÔ◊8–ÈíæÖ/
-`
-java:S4143ˇ"DVerify this is the key that was intended; it was already set before.(É¯£˚˛ˇˇˇˇ
-d	java:S899—"BDo something with the "boolean" value returned by "createNewFile".(–êíÕ˘ˇˇˇˇ8–ÈíæÖ/
-^	java:S125¿"<This block of commented-out lines of code should be removed.(òÛˇÿ˘ˇˇˇˇ8–ÈíæÖ/
-O
-java:S1153Ü"1Directly append the argument of String.valueOf().(†”˘Ã8–ÈíæÖ/
-W
-java:S2864±"4Iterate over the "entrySet" instead of the "keySet".(Ω÷≤í˚ˇˇˇˇ8–ÈíæÖ/
-p
-java:S2095Á"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(œÉÚñ˚ˇˇˇˇ8–ÈíæÖ/
-]	java:S1253"<This block of commented-out lines of code should be removed.(›ºˆ¯¸ˇˇˇˇ8‚Ñ◊ΩÖ/
-]	java:S125V"<This block of commented-out lines of code should be removed.(ˇ€Ω˙˘ˇˇˇˇ8–ÈíæÖ/
-X	java:S125¶"<This block of commented-out lines of code should be removed.(Ù∫±8–ÈíæÖ/
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(π∏˙å8–ÈíæÖ/
-N
-java:S11536"1Directly append the argument of String.valueOf().(™¢∫˝8∂…◊ΩÖ/
-[	java:S106Í"9Replace this use of System.out or System.err by a logger.(Ωú“Ó¸ˇˇˇˇ8–ÈíæÖ/
-c	java:S112ã"FDefine and throw a dedicated exception instead of using a generic one.(õﬁ∑®8–ÈíæÖ/
-X	java:S125B"<This block of commented-out lines of code should be removed.(áê€’8¯ÄÈæÖ/
-[
-java:S4143å"DVerify this is the key that was intended; it was already set before.(¬À˙Ö
-i
-java:S1192ö"FDefine a constant instead of duplicating this literal "total" 4 times.(È‚Ö•˝ˇˇˇˇ8–ÈíæÖ/
-V
-java:S1854È"8Remove this useless assignment to local variable "key1".(”¨£Ê8–ÈíæÖ/
+g	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(…ÊÑ˜¯ˇˇˇˇ8‚Ñ◊ΩÖ/
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(–∞∑±ˇˇˇˇˇ8¯ÄÈæÖ/
+b	java:S112~"FDefine and throw a dedicated exception instead of using a generic one.(π∏˙å8–ÈíæÖ/
+c	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(õﬁ∑®8–ÈíæÖ/
+c	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ì§≥Ï8–ÈíæÖ/
+R
+java:S3740§"/Provide the parametrized type for this generic.(Ùƒ«∂˘ˇˇˇˇ8Í◊√‹ü/
+]	java:S1252"<This block of commented-out lines of code should be removed.(›ºˆ¯¸ˇˇˇˇ8‚Ñ◊ΩÖ/
+X	java:S125A"<This block of commented-out lines of code should be removed.(áê€’8¯ÄÈæÖ/
+]	java:S125U"<This block of commented-out lines of code should be removed.(ˇ€Ω˙˘ˇˇˇˇ8–ÈíæÖ/
 M
-java:S2093ê"*Change this "try" to a try-with-resources.(°ª¢¸˘ˇˇˇˇ8–ÈíæÖ/
+java:S2093è"*Change this "try" to a try-with-resources.(°ª¢¸˘ˇˇˇˇ8–ÈíæÖ/
+X	java:S125•"<This block of commented-out lines of code should be removed.(Ù∫±8–ÈíæÖ/
+p	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( á¸ô˙ˇˇˇˇ8–ÈíæÖ/
+d	java:S899–"BDo something with the "boolean" value returned by "createNewFile".(–êíÕ˘ˇˇˇˇ8–ÈíæÖ/
+V
+java:S1854Ë"8Remove this useless assignment to local variable "key1".(”¨£Ê8–ÈíæÖ/
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(Ωú“Ó¸ˇˇˇˇ8–ÈíæÖ/
+V	java:S106Û"9Replace this use of System.out or System.err by a logger.(§ôÔ◊8–ÈíæÖ/
+`
+java:S4143˛"DVerify this is the key that was intended; it was already set before.(É¯£˚˛ˇˇˇˇ
+[
+java:S4143Ç"DVerify this is the key that was intended; it was already set before.(Ü’ñ≠
+[
+java:S4143ã"DVerify this is the key that was intended; it was already set before.(¬À˙Ö
+W
+java:S2864∞"4Iterate over the "entrySet" instead of the "keySet".(Ω÷≤í˚ˇˇˇˇ8–ÈíæÖ/
+^	java:S125ø"<This block of commented-out lines of code should be removed.(òÛˇÿ˘ˇˇˇˇ8–ÈíæÖ/
+H
+java:S3457•"%String contains no format specifiers.(≥·õç¸ˇˇˇˇ8Í◊√‹ü/
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(≥·õç¸ˇˇˇˇ8Í◊√‹ü/
+G
+java:S1481Ë")Remove this unused "key1" local variable.(”¨£Ê8–ÈíæÖ/
 j
-java:S1192˛"GDefine a constant instead of duplicating this literal "value2" 3 times.(É¯£˚˛ˇˇˇˇ8–ÈíæÖ/
+java:S1192˝"GDefine a constant instead of duplicating this literal "value2" 3 times.(É¯£˚˛ˇˇˇˇ8–ÈíæÖ/
+i
+java:S1192ô"FDefine a constant instead of duplicating this literal "total" 4 times.(È‚Ö•˝ˇˇˇˇ8–ÈíæÖ/
+u
+java:S1488B"YImmediately return this expression instead of assigning it to the temporary variable "i".(õ∫ù<8¯ÄÈæÖ/
+N
+java:S11535"1Directly append the argument of String.valueOf().(™¢∫˝8∂…◊ΩÖ/
+O
+java:S1153Ö"1Directly append the argument of String.valueOf().(†”˘Ã8–ÈíæÖ/
+e
+java:S35183"CMake sure this expression can't be zero before doing this division.(Ê±Ÿ©˛ˇˇˇˇ8‚Ñ◊ΩÖ/
+_
+java:S3518B"CMake sure this expression can't be zero before doing this division.(õ∫ù<8¯ÄÈæÖ/
+h
+java:S2095Æ"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(∏ô·Ö8–ÈíæÖ/
+p
+java:S2095Ê"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(œÉÚñ˚ˇˇˇˇ8–ÈíæÖ/

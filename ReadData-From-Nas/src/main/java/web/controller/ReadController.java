@@ -7,6 +7,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import web.dao.Student;
 import web.dao.Teacher;
@@ -33,10 +35,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ReadController {
     @Resource
     TestService testService;
-    @GetMapping("/test")
-    public String test(){
-        return "helloC";
-    }
+
 
     /**
      * 下层的异常会被捕捉
@@ -411,4 +410,15 @@ public class ReadController {
         sb.append(":").append(String.format("%02d",miniute)).append(":").append(String.format("%02d",second));
         return sb.toString();
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "helloC";
+    }
+
+    @PostMapping("/testPost")
+    public void testPost(@RequestBody Map map){
+        System.out.printf("000000000000");
+    }
+
 }

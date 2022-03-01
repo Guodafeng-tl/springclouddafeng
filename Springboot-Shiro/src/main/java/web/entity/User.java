@@ -1,5 +1,9 @@
 package web.entity;
 
+import lombok.Builder;
+import lombok.Data;
+import lombok.ToString;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +12,9 @@ import java.io.Serializable;
  * @author makejava
  * @since 2021-03-23 14:53:55
  */
+@Builder
+@Data
+@ToString
 public class User implements Serializable {
     private static final long serialVersionUID = 127611527100522503L;
     

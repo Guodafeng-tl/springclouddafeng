@@ -10,5 +10,7 @@ import java.util.List;
  **/
 public interface UserDao {
 
-    List<User> getUserList() throws Exception;
+    void update(User user);
+
+    void insert(User user);
 }

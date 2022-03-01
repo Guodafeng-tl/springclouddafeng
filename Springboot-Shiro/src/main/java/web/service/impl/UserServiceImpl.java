@@ -1,5 +1,7 @@
 package web.service.impl;
 
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import web.entity.User;
 import web.dao.UserDao;
 import web.service.UserService;
@@ -26,6 +28,7 @@ public class UserServiceImpl implements UserService {
      * @return 实例对象
      */
     @Override
+    @Transactional(rollbackFor = Exception.class,propagation= Propagation.NOT_SUPPORTED)
     public User queryById(Integer id) {
         return this.userDao.queryById(id);
     }
@@ -49,6 +52,7 @@ public class UserServiceImpl implements UserService {
      * @return 实例对象
      */
     @Override
+    //@Transactional(rollbackFor = Exception.class,propagation = Propagation.REQUIRED)
     public User insert(User user) {
         this.userDao.insert(user);
         return user;
@@ -61,6 +65,7 @@ public class UserServiceImpl implements UserService {
      * @return 实例对象
      */
     @Override
+    @Transactional(rollbackFor = Exception.class,propagation = Propagation.REQUIRED)
     public User update(User user) {
         this.userDao.update(user);
         return this.queryById(user.getId());

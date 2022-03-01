@@ -2,39 +2,41 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EasyCode-MybatisHelp-Test" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
-        <module name="Springboot-Thread" />
-        <module name="cloud-hystrix-provider8888" />
-        <module name="SpringBoot-MongoDB" />
-        <module name="cloud-api-commons" />
-        <module name="RabbitMq-Provider-8889" />
-        <module name="cloud-openFeign8787" />
-        <module name="cloud-client-ribbon8003" />
-        <module name="eurakeServer7001" />
-        <module name="cloud-consumer8000" />
-        <module name="cloud-feign-hystrix-consumer8887" />
-        <module name="SpringCloud-GateWay9526" />
-        <module name="cloud-provide8888" />
-        <module name="cloud-ribbon-server8802" />
-        <module name="cloud-ribbon-server8801" />
-        <module name="DesignPatterns23" />
-        <module name="Springboot-Redis" />
-        <module name="config-client3355" />
-        <module name="SpringBoot-MyBatis" />
         <module name="ReadData-From-Nas" />
-        <module name="SpringBoot-Kafka9000" />
-        <module name="Springboot-FilterAndInterceptor" />
+        <module name="SpringCloud-GateWay9526" />
         <module name="S3-Support-ManyUser" />
+        <module name="RabbitMq-Consumer-8890" />
+        <module name="RabbitMq-Provider-8889" />
+        <module name="Springboot-Redis" />
+        <module name="EasyCode-MybatisHelp-Test" />
+        <module name="SpringBoot-MyBatis" />
+        <module name="DesignPatterns23" />
+        <module name="eurakeServer7001" />
+        <module name="Java-CallBack" />
         <module name="Springboot-quartz" />
         <module name="Springboot-Shiro" />
-        <module name="RabbitMq-Consumer-8890" />
+        <module name="Springboot-FilterAndInterceptor" />
+        <module name="cloud-provide8888" />
+        <module name="cloud-consumer8000" />
+        <module name="cloud-client-ribbon8003" />
+        <module name="cloud-hystrix-provider8888" />
         <module name="SpringbootAsyncTask" />
+        <module name="SpringBoot-MongoDB" />
+        <module name="cloud-api-commons" />
+        <module name="SpringBoot-Kafka9000" />
+        <module name="Springboot-Thread" />
+        <module name="cloud-feign-hystrix-consumer8887" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-openFeign8787" />
+        <module name="cloud-ribbon-server8802" />
+        <module name="cloud-ribbon-server8801" />
         <module name="config-center3344" />
+        <module name="config-client3355" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -53,6 +55,7 @@
       <module name="DesignPatterns23" target="1.8" />
       <module name="EasyCode-MybatisHelp-Test" target="1.8" />
       <module name="eurakeServer7001" target="1.8" />
+      <module name="Java-CallBack" target="1.8" />
       <module name="RabbitMq-Consumer-8890" target="1.8" />
       <module name="RabbitMq-Provider-8889" target="1.8" />
       <module name="ReadData-From-Nas" target="1.8" />

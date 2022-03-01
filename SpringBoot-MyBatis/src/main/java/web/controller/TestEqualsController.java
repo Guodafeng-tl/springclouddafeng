@@ -1,12 +1,18 @@
 package web.controller;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import web.entity.User;
+import web.service.TestTransactionalService;
+
+import java.util.Map;
 import java.util.Objects;
 @RestController
 @Slf4j
 public class TestEqualsController {
 
+    @Autowired
+    TestTransactionalService testTransactionalService;
     @RequestMapping("/testEquals")
     public void testEquals(){
         log.info("*************************Objects.equals方法值对比****************");
@@ -17,5 +23,11 @@ public class TestEqualsController {
         log.info("*************************equals方法值对比****************");
         String a= null;
         log.info("用equals()可能出现空指针"+a.equals("abc"));
+    }
+
+    @PostMapping("/test")
+    public String test(){
+        testTransactionalService.update(User.builder().userId(1).userAge(20).name("aaa").build());
+        return "SUCCESS";
     }
 }

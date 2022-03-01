@@ -7,6 +7,7 @@ import web.entity.Student;
 import web.entity.Test;
 import web.service.MongoService;
 
+import java.io.File;
 import java.util.*;
 
 /**
@@ -89,7 +90,7 @@ public class MongoTestController {
 
     @GetMapping("/testMap")
     public void testMap(){
-        
+
         HashMap<String, Boolean> result = new HashMap<>();
         result.put("status",false);
         result.put("status",true);
@@ -98,5 +99,28 @@ public class MongoTestController {
         ArrayList<Student> students = new ArrayList<>();
         int size = students.size();
         log.info(String.valueOf(students.size()));
+    }
+
+    public static void main(String[] args) {
+        File f = null;
+        File f1 = null;
+        boolean bool = false;
+
+        try {
+
+            // create new File objects
+            f = new File("D:/test.txt");
+            f1 = new File("D:/testABC.txt");
+
+            // rename file
+            bool = f.renameTo(f1);
+
+            // print
+            System.out.print("File renamed? "+bool);
+
+        } catch(Exception e) {
+            // if any error occurs
+            e.printStackTrace();
+        }
     }
 }

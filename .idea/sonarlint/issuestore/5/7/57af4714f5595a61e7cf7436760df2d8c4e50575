@@ -1,9 +1,11 @@
 
-X
-java:S1764"6Correct one of the identical argument sub-expressions.(—ü¯¬ùÿÿÿÿ8ñà¨Á—/
-\
-java:S2259"?A "NullPointerException" could be thrown; "a" is nullable here.(Ô¯æÁ8Ü¶ãÁ—/
+L
+java:S3740"/Provide the parametrized type for this generic.(¢Òí—8íŠÎÔŸ/
 S
-java:S1764"6Correct one of the identical argument sub-expressions.(é‰‚ã8Ü¶ãÁ—/
+java:S1764"6Correct one of the identical argument sub-expressions.(é‰‚ã8Ü¶ãÁ—/
+X
+java:S1764"6Correct one of the identical argument sub-expressions.(—ü¯¬ùÿÿÿÿ8ñà¨Á—/
 s
-java:S1192"QDefine a constant instead of duplicating this literal ";æ‰§è¡Œç»“æžœä¸º" 4 times.(þÂ¢ìÿÿÿÿÿ8¸«¤Á—/
+java:S1192"QDefine a constant instead of duplicating this literal ";æ‰§è¡Œç»“æžœä¸º" 4 times.(þÂ¢ìÿÿÿÿÿ8¸«¤Á—/
+\
+java:S2259"?A "NullPointerException" could be thrown; "a" is nullable here.(Ô¯æÁ8Ü¶ãÁ—/

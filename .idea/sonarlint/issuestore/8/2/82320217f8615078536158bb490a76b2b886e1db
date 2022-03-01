@@ -1,11 +1,11 @@
 
-^
-java:S1192"HDefine a constant instead of duplicating this literal "hashMap" 3 times.(´‡Ş
 \
 java:S2259,"FA "NullPointerException" could be thrown; "student0" is nullable here.(ÁÏŠÆ
 a
 java:S1858,"K"student0" is already a string, there's no need to call "toString()" on it.(ÁÏŠÆ
-a
-java:S1858."K"student1" is already a string, there's no need to call "toString()" on it.(‚êí±
 \
 java:S2259."FA "NullPointerException" could be thrown; "student1" is nullable here.(‚êí±
+^
+java:S1192"HDefine a constant instead of duplicating this literal "hashMap" 3 times.(´‡Ş
+a
+java:S1858."K"student1" is already a string, there's no need to call "toString()" on it.(‚êí±

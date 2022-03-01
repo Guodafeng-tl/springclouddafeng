@@ -1,8 +1,11 @@
 package web.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
 import web.entity.User;
 import web.service.UserService;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +18,8 @@ import javax.annotation.Resource;
  * @since 2021-03-23 14:53:59
  */
 @RestController
+@Slf4j
+//@Transactional
 public class UserController {
     /**
      * 服务对象
@@ -133,4 +138,24 @@ public class UserController {
         resultMsg.setMsg("权限错误");
         return resultMsg;
     }
+
+    @RequestMapping(value = "/login/testMysqlInsert", method = RequestMethod.GET)
+    public String testInsert(){
+        //
+        User userExist = userService.queryById(8);
+        log.info(userExist.toString());
+        userService.deleteById(8);
+        userService.insert(User.builder().id(8).name("xxxxx11").role("A11").build());
+        userService.update(User.builder().id(8).name("yyyyyy11").role("roleeee11").build());
+        userService.update(User.builder().id(8).name("zzzz111").role("ooooo11").build());
+        User userNew = userService.queryById(8);
+        log.info(userNew.toString());
+        return "插入成功";
+    }
+
+    @RequestMapping(value = "/login/testAspect", method = RequestMethod.GET)
+    public void testAspect(){
+        System.out.println("*************这是testAspect*********");
+    }
+
 }

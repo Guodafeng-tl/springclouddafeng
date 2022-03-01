@@ -38,6 +38,7 @@
         <module>Springboot-Thread</module>
         <module>DesignPatterns23</module>
         <module>SpringBoot-MyBatis</module>
+        <module>Java-CallBack</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

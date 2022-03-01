@@ -1,9 +1,14 @@
 
-?
-java:S1481c")Remove this unused "size" local variable.(ŠıÂÉ
-N
-java:S1854c"8Remove this useless assignment to local variable "size".(ŠıÂÉ
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(Œ¾Ø”ÿÿÿÿÿ8¤±·‘›/
 ~
-java:S14882"cImmediately return this expression instead of assigning it to the temporary variable "studentById".(Æ˜¤ùÿÿÿÿ
+java:S14883"cImmediately return this expression instead of assigning it to the temporary variable "studentById".(Æ˜¤ùÿÿÿÿ
+]
+java:S1075q"ARefactor your code to get this URI from a customizable parameter.(ƒú²8·‡¸‘›/
+?
+java:S1481d")Remove this unused "size" local variable.(ŠıÂÉ
 _
-java:S4143_"DVerify this is the key that was intended; it was already set before.(’‰œ¯şÿÿÿÿ
+java:S4143`"DVerify this is the key that was intended; it was already set before.(’‰œ¯şÿÿÿÿ
+N
+java:S1854d"8Remove this useless assignment to local variable "size".(ŠıÂÉ
+c
+java:S1075p"ARefactor your code to get this URI from a customizable parameter.(íÒÄœùÿÿÿÿ8·‡¸‘›/

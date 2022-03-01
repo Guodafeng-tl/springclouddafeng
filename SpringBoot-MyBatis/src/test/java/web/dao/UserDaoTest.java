@@ -19,7 +19,8 @@ class UserDaoTest {
     void getUserList() throws Exception {
         SqlSession sqlSession = MyBatisSqlSessionFactory.getSqlSession();
         UserDao mapper = sqlSession.getMapper(UserDao.class);
-        List<User> userList = mapper.getUserList();
+        //List<User> userList = mapper.getUserList();
+        List<User> userList = null;
         for (User user : userList) {
             System.out.println(user);
         }
