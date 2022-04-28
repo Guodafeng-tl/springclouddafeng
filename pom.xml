@@ -39,6 +39,7 @@
         <module>DesignPatterns23</module>
         <module>SpringBoot-MyBatis</module>
         <module>Java-CallBack</module>
+        <module>Java-Annotation</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

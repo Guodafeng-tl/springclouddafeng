@@ -1,6 +1,8 @@
 package web.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.Redisson;
+import org.redisson.api.RLock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author : dafeng.guo
@@ -19,6 +22,8 @@ public class RedisController {
 
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
+    @Autowired
+    private Redisson redisson;
 
     @GetMapping("/testRestTemplateAddStr")
     public String testRestTemplateAdd(){
@@ -68,4 +73,31 @@ public class RedisController {
         redisTemplate.opsForList().leftPop("list");
         return "getList SUCCESS";
     }
+
+    @GetMapping("/testRedisson")
+    public void redisson(){
+        String lockKey = "REDISSION:20220413-df-test";
+        //公平锁
+        RLock fairLock = redisson.getFairLock(lockKey);
+        Boolean releaseLock = false;
+        try {
+            boolean b = fairLock.tryLock(1, 120, TimeUnit.SECONDS);
+            if (b) {
+                releaseLock = b;
+                log.info("66666666666666666俺拿到锁了:{}"+Thread.currentThread().getName());
+                //睡60秒 测试加锁效果
+                Thread.sleep(60000);
+            }else {
+                log.error("88888888888888获取锁失败:{}"+Thread.currentThread().getName());
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }finally {
+            if (releaseLock) {
+                fairLock.unlock();
+            }
+        }
+
+    }
+
 }

@@ -6,6 +6,9 @@ import org.springframework.retry.annotation.Recover;
 import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author : dafeng.guo
  * @date : 17:29 2021/8/24
@@ -35,4 +38,5 @@ public class ServiceImpl implements DemoService {
     public void recover(RemoteAccessException e) {
         System.out.println(e.getMessage());
     }*/
+
 }

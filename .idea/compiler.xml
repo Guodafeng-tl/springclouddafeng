@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ReadData-From-Nas" />
         <module name="SpringCloud-GateWay9526" />
-        <module name="S3-Support-ManyUser" />
+        <module name="cloud-hystrix-provider8888" />
+        <module name="ReadData-From-Nas" />
         <module name="RabbitMq-Consumer-8890" />
         <module name="RabbitMq-Provider-8889" />
+        <module name="Java-Annotation" />
         <module name="Springboot-Redis" />
         <module name="EasyCode-MybatisHelp-Test" />
         <module name="SpringBoot-MyBatis" />
@@ -24,12 +25,12 @@
         <module name="cloud-provide8888" />
         <module name="cloud-consumer8000" />
         <module name="cloud-client-ribbon8003" />
-        <module name="cloud-hystrix-provider8888" />
+        <module name="Springboot-Thread" />
         <module name="SpringbootAsyncTask" />
         <module name="SpringBoot-MongoDB" />
         <module name="cloud-api-commons" />
         <module name="SpringBoot-Kafka9000" />
-        <module name="Springboot-Thread" />
+        <module name="S3-Support-ManyUser" />
         <module name="cloud-feign-hystrix-consumer8887" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-openFeign8787" />
@@ -55,6 +56,7 @@
       <module name="DesignPatterns23" target="1.8" />
       <module name="EasyCode-MybatisHelp-Test" target="1.8" />
       <module name="eurakeServer7001" target="1.8" />
+      <module name="Java-Annotation" target="1.8" />
       <module name="Java-CallBack" target="1.8" />
       <module name="RabbitMq-Consumer-8890" target="1.8" />
       <module name="RabbitMq-Provider-8889" target="1.8" />
