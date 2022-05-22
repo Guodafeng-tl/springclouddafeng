@@ -1,11 +1,13 @@
 package web.config;
 
 import cn.hutool.core.map.MapUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import web.service.TestAbstractFirst;
+import web.service.TestAbstractCommonParse;
 import web.service.TestAbstractSecond;
 import web.service.TestAbstractService;
+import web.service.TestAbstractThree;
 
 import java.util.Map;
 
@@ -16,11 +18,17 @@ import java.util.Map;
  * 可以在bean中全部获取bean实例
  **/
 @Configuration
+@Slf4j
 public class TestAbstractConfig {
 
     @Bean
     public TestAbstractSecond testAbstractSecond(){
         return new TestAbstractSecond();
+    }
+
+    @Bean
+    public TestAbstractThree testAbstractThree(){
+        return new TestAbstractThree();
     }
 
     /**
@@ -29,10 +37,15 @@ public class TestAbstractConfig {
      * @return
      */
     @Bean
-    public TestAbstractFirst testAbstractFirst(Map<String, TestAbstractService> map){
+    public TestAbstractCommonParse testAbstractFirst(Map<String, TestAbstractService> map){
+        TestAbstractCommonParse testAbstractCommonParse = new TestAbstractCommonParse();
         if (MapUtil.isNotEmpty(map)){
-            System.out.println(0);
+            System.out.println("8888888888888888");
+            map.forEach((key,value)->{
+                log.info("【key值:->"+key+"】【value值->:】"+value);
+                testAbstractCommonParse.addTestAbstractService(value);
+            });
         }
-        return new TestAbstractFirst();
+        return new TestAbstractCommonParse();
     }
 }
