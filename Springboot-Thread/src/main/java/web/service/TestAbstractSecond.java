@@ -14,3 +14,4 @@ public class TestAbstractSecond extends TestAbstractService {
         log.info("trace log TestAbstractSecond doHandleAbstract");
     }
 }
+

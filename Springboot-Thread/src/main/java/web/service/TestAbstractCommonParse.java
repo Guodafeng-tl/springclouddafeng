@@ -29,4 +29,11 @@ public class TestAbstractCommonParse extends TestAbstractService {
             testAbstractService.doHandleAbstract();
         }
     }
+
+    class X implements Test {
+        @Override
+        public void test() {
+
+        }
+    }
 }

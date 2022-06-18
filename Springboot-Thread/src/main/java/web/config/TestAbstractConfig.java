@@ -4,10 +4,7 @@ import cn.hutool.core.map.MapUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import web.service.TestAbstractCommonParse;
-import web.service.TestAbstractSecond;
-import web.service.TestAbstractService;
-import web.service.TestAbstractThree;
+import web.service.*;
 
 import java.util.Map;
 

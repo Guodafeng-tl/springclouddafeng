@@ -1,18 +1,16 @@
 package web.controller;
 
-import cn.hutool.extra.tokenizer.Result;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Results;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import web.service.OrderService;
-import web.service.ServiceImpl;
-import web.service.TestAbstractCommonParse;
+import web.service.*;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -30,6 +28,8 @@ public class TestController {
     OrderService orderService;
     @Autowired
     TestAbstractCommonParse testAbstractCommonParse;
+    @Autowired
+    StrageContext strageContext;
 
     /**
      * 最大线程数
@@ -77,5 +77,17 @@ public class TestController {
     public void commonParse(){
         log.info("trace log TestController commonParse");
         testAbstractCommonParse.doHandleAbstract();
+    }
+
+    @GetMapping("/testStrategyAbstract")
+    public List<StrategyAbstract> testStrategyAbstract(){
+        List<StrategyAbstract> result = new ArrayList<>();
+        List<String> beanNames = Arrays.asList("FIRST", "SECOND");
+        beanNames.forEach(beanName -> {
+            StrategyAbstract strategyInfo = strageContext.getStrategyInfo(beanName);
+            strategyInfo.printBeanName();
+            result.add(strategyInfo);
+        });
+        return result;
     }
 }

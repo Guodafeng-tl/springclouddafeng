@@ -7,10 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-order-service2001" />
         <module name="SpringCloud-GateWay9526" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloudalibaba-consumer-nacos-order84" />
         <module name="cloud-hystrix-provider8888" />
         <module name="ReadData-From-Nas" />
         <module name="RabbitMq-Consumer-8890" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9003" />
+        <module name="cloudalibaba-provider-payment9004" />
         <module name="RabbitMq-Provider-8889" />
         <module name="Java-Annotation" />
         <module name="Springboot-Redis" />
@@ -18,6 +24,7 @@
         <module name="SpringBoot-MyBatis" />
         <module name="DesignPatterns23" />
         <module name="eurakeServer7001" />
+        <module name="cloudalibaba-config-nacos-client3377" />
         <module name="Java-CallBack" />
         <module name="Springboot-quartz" />
         <module name="Springboot-Shiro" />
@@ -27,17 +34,21 @@
         <module name="cloud-client-ribbon8003" />
         <module name="Springboot-Thread" />
         <module name="SpringbootAsyncTask" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="SpringBoot-MongoDB" />
         <module name="cloud-api-commons" />
         <module name="SpringBoot-Kafka9000" />
         <module name="S3-Support-ManyUser" />
         <module name="cloud-feign-hystrix-consumer8887" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-openFeign8787" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-ribbon-server8802" />
         <module name="cloud-ribbon-server8801" />
         <module name="config-center3344" />
         <module name="config-client3355" />
+        <module name="seata-account-service2003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +62,14 @@
       <module name="cloud-provide8888" target="1.8" />
       <module name="cloud-ribbon-server8801" target="1.8" />
       <module name="cloud-ribbon-server8802" target="1.8" />
+      <module name="cloudalibaba-config-nacos-client3377" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order83" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order84" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
+      <module name="cloudalibaba-provider-payment9003" target="1.8" />
+      <module name="cloudalibaba-provider-payment9004" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8401" target="1.8" />
       <module name="config-center3344" target="1.8" />
       <module name="config-client3355" target="1.8" />
       <module name="DesignPatterns23" target="1.8" />
@@ -62,6 +81,9 @@
       <module name="RabbitMq-Provider-8889" target="1.8" />
       <module name="ReadData-From-Nas" target="1.8" />
       <module name="S3-Support-ManyUser" target="1.8" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
       <module name="Springboot-FilterAndInterceptor" target="1.8" />
       <module name="SpringBoot-Kafka9000" target="1.8" />
       <module name="SpringBoot-MongoDB" target="1.8" />
