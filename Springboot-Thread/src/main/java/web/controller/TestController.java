@@ -1,19 +1,22 @@
 package web.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import web.service.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.math.BigDecimal;
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import static java.util.regex.Pattern.compile;
 
 /**
  * @author : dafeng.guo
@@ -81,13 +84,45 @@ public class TestController {
 
     @GetMapping("/testStrategyAbstract")
     public List<StrategyAbstract> testStrategyAbstract(){
+
         List<StrategyAbstract> result = new ArrayList<>();
         List<String> beanNames = Arrays.asList("FIRST", "SECOND");
         beanNames.forEach(beanName -> {
             StrategyAbstract strategyInfo = strageContext.getStrategyInfo(beanName);
+
             strategyInfo.printBeanName();
             result.add(strategyInfo);
         });
         return result;
     }
+
+    /*
+    正则表达式
+     */
+    @GetMapping("/testJrebel")
+    public void jrebel(){
+        System.out.println("1111");
+        System.out.println("999");
+        System.out.println("6666");
+    }
+
+    private static Pattern  pattern = Pattern.compile("[0-9]*");
+    public static boolean isNumber(String str) {
+        // 通过Matcher进行字符串匹配
+        Matcher m = pattern.matcher(str);
+        // 如果正则匹配通过 m.matches() 方法返回 true ，反之 false
+        return m.matches();
+
+    }
+
+    /**
+     * 校验数字  包括百分号
+     * @param str
+     * @return
+     */
+    public static boolean isNumeric2(String str) {
+        Boolean isNumber = str.matches("-?[0-9]+.?[0-9]*");
+        return isNumber;
+    }
+
 }

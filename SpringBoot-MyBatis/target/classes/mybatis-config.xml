@@ -3,12 +3,12 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <!--读取外部配置文件 当properties中property同时配置时 以外部配置文件为主-->
+    <!--&lt;!&ndash;读取外部配置文件 当properties中property同时配置时 以外部配置文件为主&ndash;&gt;
     <properties resource="db.properties">
-        <!--对比配置外部文件 db.properties里面配置 看哪个为主-->
+        &lt;!&ndash;对比配置外部文件 db.properties里面配置 看哪个为主&ndash;&gt;
         <property name="username" value="root"/>
         <property name="password" value="root"/>
-    </properties>
+    </properties>-->
 
     <typeAliases>
         <typeAlias type="web.entity.User" alias="user"></typeAlias>
