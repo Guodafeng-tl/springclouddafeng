@@ -1,5 +1,8 @@
 package web.entity;
 
+import lombok.Builder;
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +11,8 @@ import java.io.Serializable;
  * @author dafeng.guo
  * @since 2020-12-09 14:55:45
  */
+@Data
+@Builder
 public class Student implements Serializable {
     private static final long serialVersionUID = -86463662954000624L;
     

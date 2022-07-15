@@ -76,4 +76,10 @@ public class StudentServiceImpl implements StudentService {
     public boolean deleteById(Integer id) {
         return this.studentDao.deleteById(id) > 0;
     }
+
+    @Override
+    public List<Student> queryAll(Student student) {
+        System.out.println("走了查询数据库的serviceImpl");
+        return studentDao.queryAll(student);
+    }
 }

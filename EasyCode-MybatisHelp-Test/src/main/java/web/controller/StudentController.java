@@ -1,5 +1,8 @@
 package web.controller;
 
+import cn.hutool.json.JSON;
+import org.springframework.beans.factory.annotation.Autowired;
+import web.dao.test.StudentDao;
 import web.entity.Student;
 import lombok.extern.slf4j.Slf4j;
 import web.entity.Teacher;
@@ -10,6 +13,7 @@ import web.service.TeacherService;
 import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -34,8 +38,8 @@ public class StudentController {
      *
      * @return 单条数据
      */
-    @GetMapping("/selectOne")
-    public String selectOne(Integer id) throws IOException {
+    @GetMapping("/selectOne/{id}")
+    public String selectOne(@PathVariable Integer id) throws IOException {
         Student student = studentService.queryById(id);
         Teacher teacher = teacherService.queryById(id);
         StringBuffer stringBuffer = new StringBuffer();
@@ -52,5 +56,13 @@ public class StudentController {
         for (String value : hashMap.values()){
             log.info(value);
         }
+    }
+
+    @GetMapping("/cache/{name}")
+    public List<Student> cacheTest(@PathVariable String name) throws IOException {
+        log.info("测试缓存开始");
+        List<Student> result = (List<Student>)GoogleCacheTest.get(name, () -> studentService.queryAll(Student.builder().name(name).build()));
+        log.info("查询的接口：{}",result);
+        return result;
     }
 }

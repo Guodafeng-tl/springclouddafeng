@@ -52,4 +52,6 @@ public interface StudentService {
      */
     boolean deleteById(Integer id);
 
+    List<Student> queryAll(Student student);
+
 }
