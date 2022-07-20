@@ -46,12 +46,13 @@ public class TestController {
      * 模拟高并发 feign调用请求,降低跨服务请求次数,提升请求效率
      */
     @RequestMapping("/testJuc")
-    public Date testJuc() {
+    public Date testJuc() throws InterruptedException {
         String orderCode = "xxx";  //随便定义个字符串模拟订单号
         for (int i = 0; i < MAX_THREAD; i++) {
             new Thread(() -> {
                 try {
-                    cdl.await(5, TimeUnit.SECONDS);
+                    cdl.countDown();
+                    cdl.await();
                     //cdl.await();
                     orderService.testJuc(orderCode);
                     //log.info("子线程名称:"+Thread.currentThread().getName() +"【时间】"+ new Date());
@@ -60,7 +61,7 @@ public class TestController {
                 }
             }).start();
         }
-        cdl.countDown();  //线程从1到0 的瞬间 执行 等待后的代码
+        Thread.sleep(3000);
         log.info("主线程名称和时间:"+Thread.currentThread().getName()+"【】"+new Date());
         return new Date();
     }
