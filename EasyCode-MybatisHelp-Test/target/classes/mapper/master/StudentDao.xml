@@ -14,6 +14,9 @@
           id, name
         from test.student
         where id = #{id}
+            #我们
+            -- 88
+            <!-- 99-->
     </select>
 
     <!--查询指定行数据-->

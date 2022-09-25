@@ -1,6 +1,9 @@
 package web.entity;
 
+import lombok.Data;
+
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * (Teacher)实体类
@@ -8,6 +11,7 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-12-17 14:03:41
  */
+@Data
 public class Teacher implements Serializable {
     private static final long serialVersionUID = 489916060062539940L;
     
@@ -16,6 +20,8 @@ public class Teacher implements Serializable {
     private Integer age;
     
     private String name;
+
+    private BigDecimal percent;
 
 
     public Integer getId() {

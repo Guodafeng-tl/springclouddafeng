@@ -33,10 +33,10 @@
           <map>
             <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
             <entry key="jrebelEnabled" value="true" />
-            <entry key="lastExternalPluginCheckTime" value="1658193455290" />
+            <entry key="lastExternalPluginCheckTime" value="1663580300743" />
           </map>
         </option>
-        <option name="version" value="39" />
+        <option name="version" value="91" />
       </configuration>
     </facet>
   </component>

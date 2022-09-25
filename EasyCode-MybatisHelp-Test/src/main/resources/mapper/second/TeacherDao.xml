@@ -45,8 +45,8 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="id" useGeneratedKeys="true">
-        insert into testb.teacher(age, name)
-        values (#{age}, #{name})
+        insert into testb.teacher(id,age, name,percent)
+        values (#{id},#{age}, #{name},#{percent})
     </insert>
 
     <!--通过主键修改数据-->

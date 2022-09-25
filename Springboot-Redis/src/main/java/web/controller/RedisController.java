@@ -5,8 +5,13 @@ import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import web.entity.Student;
+import web.service.TestService;
+
+import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,6 +29,9 @@ public class RedisController {
     private RedisTemplate<String, Object> redisTemplate;
     @Autowired
     private Redisson redisson;
+    @Resource
+    private TestService testService;
+
 
     @GetMapping("/testRestTemplateAddStr")
     public String testRestTemplateAdd(){
@@ -98,6 +106,20 @@ public class RedisController {
             }
         }
 
+    }
+
+
+    @GetMapping("/testRedisCache")
+    public List<Map<String, Object>>  cacheTest(){
+        List<Map<String, Object>> result = testService.queryById(1L);
+        testService.queryById2(2L);
+        return result;
+    }
+
+    @GetMapping("/getFromCache")
+    public Object  getFromCache(){
+        Object result1 = redisTemplate.opsForValue().get("20220925-df::2");
+        return result1;
     }
 
 }

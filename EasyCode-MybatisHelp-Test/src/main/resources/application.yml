@@ -14,3 +14,6 @@ spring:
 #mybatis:
 #  mapper-locations: classpath:mapper/master/*.xml
 #  type-aliases-package: web.entity    #对应实体类路径
+logging:
+  level:
+    web.dao.test.StudentDao.**: debug
