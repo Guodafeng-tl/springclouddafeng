@@ -12,10 +12,12 @@ import web.entity.Student;
 import web.service.TestService;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 /**
  * @author : dafeng.guo
@@ -120,6 +122,38 @@ public class RedisController {
     public Object  getFromCache(){
         Object result1 = redisTemplate.opsForValue().get("20220925-df::2");
         return result1;
+    }
+
+    public static void main(String[] args) {
+        List<List<Student>> result = new ArrayList<>();
+        List<Student> list = new ArrayList<>();
+        Student student1 = new Student();
+        student1.setId("1");
+        student1.setName("111");
+        Student student2 = new Student();
+        student2.setId("2");
+        student2.setName("222");
+        Student student3 = new Student();
+        student3.setId("3");
+        student3.setName("222");
+        Student student4 = new Student();
+        student4.setId("4");
+        student4.setName(null);
+        Student student5 = new Student();
+        student5.setId("5");
+        student5.setName(null);
+        list.add(student1);
+        list.add(student2);
+        list.add(student3);
+        list.add(student4);
+        list.add(student5);
+        result.add(list);
+        result.forEach(ele->{
+            List<Student> collect = ele.stream().map(Student::getName).distinct().map(name -> Student.builder().name(name).build()).collect(Collectors.toList());
+            System.out.println(collect);
+        });
+        //List<Student> collect = list.stream().map(Student::getName).distinct().map(name -> Student.builder().name(name).build()).collect(Collectors.toList());
+        //System.out.println(collect);
     }
 
 }
