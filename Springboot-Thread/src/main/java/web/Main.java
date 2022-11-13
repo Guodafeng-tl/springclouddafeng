@@ -13,6 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  **/
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 //@EnableScheduling
+//dafeng
 @EnableRetry
 public class Main {
     public static void main(String[] args) {
