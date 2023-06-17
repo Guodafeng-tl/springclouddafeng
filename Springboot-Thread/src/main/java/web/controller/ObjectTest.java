@@ -8,7 +8,7 @@ public class ObjectTest {
         Object obj = new Object();
         System.out.println("对象内部信息");
         System.out.println(ClassLayout.parseInstance(obj).toPrintable());
-        System.out.println("对象占用内存大小");
+        System.out.println("对象占用内存大小test");
         System.out.println(GraphLayout.parseInstance(obj).totalSize());
     }
 }
